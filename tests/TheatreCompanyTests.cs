@@ -22,7 +22,7 @@ public class TheatreCompanyTests
 }
 """;
 
-    private readonly string _invoices
+    private readonly string _invoices;
     JsonSerializerOptions _options = new() { PropertyNameCaseInsensitive = true };
 
     public TheatreCompanyTests()
